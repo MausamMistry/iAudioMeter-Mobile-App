@@ -24,8 +24,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 AppAsset.splashBackground,
                 height: MediaQuery.of(context).size.height,
                 width: MediaQuery.of(context).size.width,
-                colorBlendMode: BlendMode.screen,
-                color: lightColorScheme.primaryContainer,
                 fit: BoxFit.cover,
               ),
               Container(
@@ -33,7 +31,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Image.asset(
                   AppAsset.splashLogo,
                   height: Get.height * 0.28,
-                  colorBlendMode: BlendMode.screen,
                 ),
               ),
             ],

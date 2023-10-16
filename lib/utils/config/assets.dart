@@ -1,6 +1,6 @@
 class AppAsset {
   static const appBackground = "assets/sample_bg.png";
-  static const splashBackground = "assets/splash_background.png";
+  static const splashBackground = "assets/splash_background.jpg";
   static const splashLogo = "assets/splash_logo.png";
   static const loginBackground = "assets/login_background.png";
   static const loginLogo = "assets/login_logo.png";
